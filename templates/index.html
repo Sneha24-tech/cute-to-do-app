@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cute To-Do List 📝❤️</title>
+    <style>
+        .completed-task {
+            text-decoration: line-through;
+            opacity: 0.5;
+            transition: all 0.3s ease;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/panda-left.jpg') }}" class="panda-left">
+    <img src="{{ url_for('static', filename='images/panda-right.jpg') }}" class="panda-right">
+
+    <h1>Hello!🍂<br>
+    Get your to-do list done today!💕🎯</h1>
+     <!-- 🌗 Dark Mode Toggle Switch -->
+    <label class="switch">
+     <input type="checkbox" id="modeToggle">
+     <span class="slider round"></span>
+    </label>
+    <p id="modeLabel" style="font-weight:bold; font-size:14px;">🌞 Light Mode</p>
+    <p style="color: #6a1b9a; font-weight: bold; font-size: 18px;">📅 {{ today }}</p>
+    <p style="color: #ff69b4; font-style: italic; font-size: 16px;">🌟 {{ quote }}</p>
+
+
+    <form action="/add" method="POST">
+        
+        <input type="text" name="task" placeholder="🌸 Add a new task..." required>
+        <input type="date" name="task_date" required>
+        <select name="task_priority" required style="padding: 8px; border-radius: 8px; margin-left: 10px;">
+          <option value="High">🔴 High</option>
+          <option value="Medium">🟡 Medium</option>
+          <option value="Low">🟢 Low</option>
+        </select>
+
+        <button type="submit">➕ Add Task</button>
+    </form>
+
+    <h2>🌷 Your Tasks:</h2>
+    <ul>
+        {% for task in tasks %}
+        <li>
+            <form action="/toggle/{{ loop.index0 }}" method="get" style="display: inline;">
+               <input type="checkbox" onChange="this.form.submit()" {% if task.completed %}checked{% endif %}>
+            </form>
+
+            <span class="{% if task.completed %}completed-task{% endif %}">
+            🌈{{ task.text }} - <span style="color:#6a1b9a;">📅 {{ task.date | datetimeformat }}</span>
+            <span style="margin-left: 10px; font-weight: bold;">
+             {% if task.priority == 'High' %}
+               🔴 {{ task.priority }}
+             {% elif task.priority == 'Medium' %}
+               🟡 {{ task.priority }}
+             {% else %}
+               🟢 {{ task.priority }}
+             {% endif %}
+            </span>
+            <form action="/delete/{{ loop.index0 }}" method="POST" style="display:inline;">
+                <button type="submit">🗑️</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+<script>
+  const toggle = document.getElementById("modeToggle");
+  const modeLabel = document.getElementById("modeLabel");
+
+  // Check saved mode on page load
+  if (localStorage.getItem("mode") === "dark") {
+    document.body.classList.add("dark-mode");
+    toggle.checked = true;
+    modeLabel.textContent = "🌙 Dark Mode";
+  }
+
+  toggle.addEventListener("change", function () {
+    if (this.checked) {
+      document.body.classList.add("dark-mode");
+      localStorage.setItem("mode", "dark");
+      modeLabel.textContent = "🌙 Dark Mode";
+    } else {
+      document.body.classList.remove("dark-mode");
+      localStorage.setItem("mode", "light");
+      modeLabel.textContent = "🌞 Light Mode";
+    }
+  });
+</script>
+</body>
+</html>

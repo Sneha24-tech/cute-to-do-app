@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body {
+  background-color: #ffe6f0; /* Light pink */
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-family: 'Poppins', cursive;
+  color: #4a148c;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5em;
+  color: #ad1457;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #6a1b9a;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ba68c8;
+  border-radius: 8px;
+  width: 60%;
+  margin-top: 15px;
+}
+
+button {
+  background-color: #ba68c8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #6a1b9a;
+}
+
+/* 🐼 Cute Panda Corner Images */
+.panda-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: auto;
+  z-index: 10;
+}
+
+.panda-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 70px;
+  height: auto;
+  z-index: 10;
+}
+
+/* 🌙 DARK MODE STYLES */
+body.dark-mode {
+  background-color: #1e1e2f;
+  color: #f5f5f5;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #aaa;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode span {
+  color: #ffb6c1;
+}
