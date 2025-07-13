@@ -50,15 +50,15 @@ python app.py
 
 ## 📁 FOLDER STRUCTURE
 
-cute-to-do-app/
-│
-├── static/             # CSS, images
-│   └── style.css
-│
-├── templates/          # HTML files
-│   └── index.html
-│
-├── app.py              # Main Flask application
+-cute-to-do-app/
+-│
+-├── static/             # CSS, images
+-│   └── style.css
+-│
+-├── templates/          # HTML files
+-│   └── index.html
+-│
+-├── app.py              # Main Flask application
 
 ## 🌈 MY LEARNING JOURNAL 🌸
 
