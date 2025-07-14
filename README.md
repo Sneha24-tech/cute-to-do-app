@@ -60,6 +60,9 @@ python app.py
 -│
 -├── app.py              # Main Flask application
 
+## 📸 SCREENSHOTS
+### 🌸 Greeting page of the App: [To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/welcomepage.png?raw=true)
+
 ## 🌈 MY LEARNING JOURNAL 🌸
 
 - This app marks one of my **first hands-on projects** in web development. It's a part of mission to:
