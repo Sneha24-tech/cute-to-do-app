@@ -80,12 +80,12 @@ python app.py
 ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/completing.png)
 
 ### 🌕 Dak Mode: 
-![To-do app ss](
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/darkmode.png)
 
 
 ## 🌈 MY LEARNING JOURNAL 🌸
 
-- This app marks one of my **first hands-on projects** in web development. It's a part of mission to:
+### This app marks one of my **first hands-on projects** in web development. It's a part of mission to:
 - Learn real-world project structuring 👩‍💻
 - Blend creativity with logic 🧠
 - Build cool and useful apps on my own 📝
