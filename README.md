@@ -61,12 +61,23 @@ python app.py
 -├── app.py              # Main Flask application
 
 ## 📸 SCREENSHOTS
-### 🌸 Greeting page of the App: ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/welcomepage.png)
-### 🚀 Home page: ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/Home.png)
-### 📆 Date setting: ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/Dateset.png)
+### 🌸 Greeting page of the App: 
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/welcomepage.png)
+
+### 🚀 Home page: 
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/Home.png)
+
+### 📆 Date setting: 
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/Dateset.png)
+
 ### 🟢 Priority indicator: 
 ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/priorityindicator.png)
-### 📝 Task Lst view: ![To-do app ss](
+
+### 📝 Task Lst view: 
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/tasks.png)
+
+### ✅ Task completion: ![To-do app ss](
+
 
 ## 🌈 MY LEARNING JOURNAL 🌸
 
