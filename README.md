@@ -62,6 +62,7 @@ python app.py
 
 ## 📸 SCREENSHOTS
 ### 🌸 Greeting page of the App: ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/welcomepage.png)
+### 🚀 Home page: ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/Home.png)
 
 ## 🌈 MY LEARNING JOURNAL 🌸
 
