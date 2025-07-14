@@ -17,14 +17,20 @@ This project is a beginner-friendly web app that helps users keep track of their
 
 ## 💡 Features
 
-- 📋 Add, delete, and check off tasks
-- 🎀 Simple, elegant, and responsive UI
-- 💾 Tasks remain visible until refreshed (basic local session)
-- 🌐 Beginner-friendly and perfect for learning full-stack flow
+- Cute, aethetic themes with custom fonts and background 🌸💫
+- Splash screen animation before Home page  💻
+- Add/Delete tasks with custom priority levels 🌈
+- Mark tasks as complete with a faded visual ✅
+- Real-time date picker for planning future tasks 📆
+- Toggle between light and dark mode 🌕🌑
+- Displays motivational quote of the day 🚀
 
 
-## 🧠 What I Learned
+## 🧠 What I Learned 
 
+### This project was my first step into real-world web development. I used Python Flask to manage the backend logic and routing. HTML and CSS gave life to my frontend, styled with love to match my aesthetic preferences. 
+
+  🧠 I learnt:
 - Creating interactive UIs with HTML, CSS, and JS
 - Integrating Python with frontend using Flask routes
 - Structuring HTML forms and handling user input
@@ -50,15 +56,16 @@ python app.py
 
 ## 📁 FOLDER STRUCTURE
 
--cute-to-do-app/
--│
--├── static/             # CSS, images
--│   └── style.css
--│
--├── templates/          # HTML files
--│   └── index.html
--│
--├── app.py              # Main Flask application
+- cute-to-do-app/
+- ----static/
+- -----------style.css          # CSS, images
+- -----------------------------------------------
+- ----templates/
+- -----------index.html         # HTML files
+- -----------------------------------------------
+- ----app.py                    # Main Flask application
+
+
 
 ## 📸 SCREENSHOTS
 ### 🌸 Greeting page of the App: 
@@ -96,6 +103,7 @@ python app.py
 
 - Add database support using SQLite ✨
 - User login/signup 💻
+- Notification reminders for deadlines 🔔
 
 ## 🌈 Connect with Me
 - Email: sinhasneha546@gmail.com
