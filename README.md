@@ -73,7 +73,8 @@ python app.py
 ### 🟢 Priority indicator: 
 ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/priorityindicator.png)
 
-### 📝 Task Lst view: 
+### 📝 Task List view:
+### 🗑️ Recycle bin icon present beside task list which deletes the particular task when clicked: 
 ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/tasks.png)
 
 ### ✅ Task completion: 
