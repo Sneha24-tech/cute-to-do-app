@@ -76,7 +76,11 @@ python app.py
 ### 📝 Task Lst view: 
 ![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/tasks.png)
 
-### ✅ Task completion: ![To-do app ss](
+### ✅ Task completion: 
+![To-do app ss](https://github.com/Sneha24-tech/cute-to-do-app/blob/master/completing.png)
+
+### 🌕 Dak Mode: 
+![To-do app ss](
 
 
 ## 🌈 MY LEARNING JOURNAL 🌸
